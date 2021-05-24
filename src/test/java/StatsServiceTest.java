@@ -3,7 +3,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class StatsServiceTest {
 
     @org.junit.jupiter.api.Test
-    void amountSalesTest(){
+    void amountSalesTest() {
         int[] resultMonth = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 180;
 
@@ -13,7 +13,7 @@ public class StatsServiceTest {
     }
 
     @org.junit.jupiter.api.Test
-    void middleAmountSalesTest(){
+    void middleAmountSalesTest() {
         int[] resultMonth = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 15;
 
@@ -23,7 +23,7 @@ public class StatsServiceTest {
     }
 
     @org.junit.jupiter.api.Test
-    void monthMaxSalesTest(){
+    void monthMaxSalesTest() {
         int[] resultMonth = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 8;
 
@@ -33,7 +33,7 @@ public class StatsServiceTest {
     }
 
     @org.junit.jupiter.api.Test
-    void monthMinSalesTest(){
+    void monthMinSalesTest() {
         int[] resultMonth = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 9;
 
@@ -43,7 +43,7 @@ public class StatsServiceTest {
     }
 
     @org.junit.jupiter.api.Test
-    void quantityMonthUnderMidTest(){
+    void quantityMonthUnderMidTest() {
         int[] resultMonth = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 5;
 
@@ -53,7 +53,7 @@ public class StatsServiceTest {
     }
 
     @org.junit.jupiter.api.Test
-    void quantityMonthMoreMid(){
+    void quantityMonthMoreMid() {
         int[] resultMonth = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         int expected = 5;
 
